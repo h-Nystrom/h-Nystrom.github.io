@@ -6532,6 +6532,7 @@ progress {
 
 .mb-5 {
   margin-bottom: 3rem !important;
+  clip-path: circle();
 }
 
 .mb-auto {
