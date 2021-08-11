@@ -59,7 +59,7 @@
   --bs-body-font-size: 1rem;
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
-  --bs-body-color: #ffffff;
+  --bs-body-color: #212529;
   --bs-body-bg: #fff;
 }
 
@@ -235,7 +235,7 @@ sup {
 }
 
 a {
-  color: #4169e1;
+  color: #fff;
   text-decoration: underline;
 }
 a:hover {
@@ -6532,7 +6532,6 @@ progress {
 
 .mb-5 {
   margin-bottom: 3rem !important;
-  clip-path: circle();
 }
 
 .mb-auto {
@@ -10515,7 +10514,9 @@ html {
   font-weight: 700;
 }
 #mainNav .navbar-brand {
-  color: #fff;
+}
+#mainNav .navbar-brand.hover{
+  a.color:  #a7b9f1;
 }
 #mainNav .navbar-nav {
   margin-top: 1rem;
@@ -10598,6 +10599,7 @@ html {
 }
 .masthead .masthead-avatar {
   width: 15rem;
+  clip-path: circle();
 }
 }
 @media (min-width: 992px) {
