@@ -470,9 +470,7 @@ output {
   display: inline-block;
 }
 
-iframe {
-  border: 0;
-}
+
 
 summary {
   display: list-item;
@@ -482,6 +480,9 @@ summary {
 progress {
   vertical-align: baseline;
 }
+.videoPlayer {
+  border: 0;
+}
 
 .iframe-container{
   position: relative;
@@ -489,7 +490,7 @@ progress {
   padding-bottom: 56.25%;
   height: 0;
 }
-.iframe-container iframe{
+.iframe-container .videoPlayer{
   position: absolute;
   top: 0;
   left: 0;
@@ -4740,14 +4741,15 @@ progress {
 
 .modal-header {
   display: flex;
+  align-self: flex-end;
   flex-shrink: 0;
-  align-items: center;
   justify-content: space-between;
   padding: 1rem 1rem;
   border-bottom: 0.125rem solid #dee2e6;
   border-top-left-radius: 0.625rem;
   border-top-right-radius: 0.625rem;
 }
+
 .modal-header .btn-close {
   padding: 0.5rem 0.5rem;
   margin: -0.5rem -0.5rem -0.5rem auto;
