@@ -233,11 +233,15 @@ sub {
 sup {
   top: -0.5em;
 }
+.store-ref {
+  color: black;
+}
 
 a {
   color: #fff;
   text-decoration: underline;
 }
+
 a:hover {
   color: #a7b9f1;
 }
